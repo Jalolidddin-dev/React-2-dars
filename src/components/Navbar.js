@@ -9,7 +9,7 @@ function Navbar({ arr }) {
       {arr.map((user) => (
         <div className="user_card" key={user.id}>
           <h1>{user.name}</h1>
-          <img src={user.img_url} alt="" />
+          <img src={user.img_url} alt="image-card" />
           <p>{user.age}</p>
           <h3>{user.job}</h3>
         </div>
